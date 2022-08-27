@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    color: white;
+
+    font-family: Consolas, serif;
+    font-size: 20px;
+
+    overflow: hidden;
+}
+
+.terminalWindow
+{
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0 7px;
+
+    overflow: scroll;
+
+    background-color: black;
+}
+
+.inputContainer
+{
+    width: 90%;
+    background-color: black;
+}
+
+.terminalInput
+{
+    width: 80%;
+
+    color: white;
+    font-family: Consolas, serif;
+    font-size: 20px;
+
+    background-color: black;
+
+    border: 0;
+}
+
+.terminalInput:focus
+{
+    outline: none;
+}
+
+.resultContainer
+{
+    color: aquamarine;
+    margin-bottom: 5px;
+}
