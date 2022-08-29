@@ -6,7 +6,7 @@ main
     flex-direction: column;
 
     width: 100%;
-    height: 919px;
+    height: 100vh;
 
     font-weight: 400;
 }
@@ -14,9 +14,11 @@ main
 /*Header Styles*/
 header
 {
+    /*background-color: red;*/
 
     width: 100vw;
-    height: 60px;
+    min-height: 50px;
+    height: 6%;
 
     display: flex;
     justify-content: space-between;
@@ -25,7 +27,7 @@ header
 
 nav
 {
-    align-self: flex-end;
+    /*align-self: flex-end;*/
 }
 
 .main-menu
@@ -51,13 +53,12 @@ nav
 
 .page-logo
 {
-    height: 100%;
     margin-left: 10px;
 }
 
 .page-logo > h4
 {
-    margin: 10px 0 0 0;
+    margin: 10px 0 10px 0;
 }
 /*End of Header Styles*/
 
@@ -67,7 +68,8 @@ section
 {
     /*background-color: green;*/
 
-    height: 799px;
+    min-height: 480px;
+    height: 88%;
 
     display: flex;
     flex-direction: column;
@@ -97,11 +99,11 @@ section
     width: 250px;
     height: 75px;
 
-    background-color: black;
+    background-color: white;
     border: 3px solid white;
     border-radius: 40px;
 
-    color: white;
+    color: black;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -113,7 +115,43 @@ section
 .details
 {
     display: flex;
-    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    height: 6%;
+
+    /*background-color: aquamarine;*/
+}
+
+.details > div
+{
+    /*background-color: red;*/
+    height: 70%;
+}
+
+.twitter-btn
+{
+    margin-left: 15px;
+}
+
+.twitter-btn > a > img
+{
+    width: 40px;
+}
+
+.github-btn > a > img
+{
+    width: 95px;
+}
+
+.linkedin-btn
+{
+    margin-right: 15px;
+}
+
+.linkedin-btn > a > img
+{
+    width: 38px;
 }
 
 /*End of Details Styles*/
