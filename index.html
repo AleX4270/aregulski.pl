@@ -5,48 +5,56 @@
     <title>Aleks R</title>
     <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="styles/helloPage.css"/>
+    <link rel="stylesheet" href="styles/terminal.css">
+
+    <script type="module" src="scripts/terminal-component/terminalWindow.js" defer></script>
 
 </head>
 <body>
     <main>
-        <header>
-            <div class="page-logo">
-                <h4>Aleks R</h4>
-            </div>
+        <div class="landingPage">
+            <header>
+                <div class="page-logo">
+                    <h4>Aleks R</h4>
+                </div>
 
-            <nav>
-                <ul class="main-menu">
-                    <li class="view-switch">Standard View</li>
-                    <li class="contact-btn">Contact</li>
-                </ul>
-            </nav>
-        </header>
+                <nav>
+                    <ul class="main-menu">
+                        <li class="view-switch"><a href="#">Standard View</a></li>
+                        <li class="contact-btn"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <section>
-            <div class="section-content-container">
-                <h1 class="hello-message">Hello, I am Aleks, a web developer.</h1>
-                <button class="terminal-btn">Get to know me better!</button>
-            </div>
-        </section>
+            <section>
+                <div class="section-content-container">
+                    <h1 class="hello-message">Hello, I am Aleks, a web developer.</h1>
+                    <button class="terminal-btn">Get to know me better!</button>
+                </div>
+            </section>
 
-        <div class="details">
-            <div class="twitter-btn" >
-                <a><img src="assets/icons/twitterIcon.png" alt="twitter icon"></a>
-            </div>
+            <div class="details">
+                <div class="twitter-btn" >
+                    <a><img src="assets/icons/twitterIcon.png" alt="twitter icon"></a>
+                </div>
 
-            <div class="github-btn" >
-                <a href="https://github.com/AleX4270" target="_blank">
-                    <img src="assets/icons/githubIcon1.png" alt="github icon"></a>
-            </div>
+                <div class="github-btn" >
+                    <a href="https://github.com/AleX4270" target="_blank">
+                        <img src="assets/icons/githubIcon1.png" alt="github icon"></a>
+                </div>
 
-            <div class="linkedin-btn" >
-                <a><img src="assets/icons/linkedinIcon.png" alt="linkedin icon"></a>
+                <div class="linkedin-btn" >
+                    <a><img src="assets/icons/linkedinIcon.png" alt="linkedin icon"></a>
+                </div>
             </div>
         </div>
 
-<!--        <div class="terminalWindow">-->
-<!--            terminal window-->
-<!--        </div>-->
+        <div class="terminalView">
+            <h2>Terminal</h2>
+            <div class="terminalWindow">
+
+            </div>
+        </div>
     </main>
 </body>
 </html>

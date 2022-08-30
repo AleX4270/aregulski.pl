@@ -47,12 +47,12 @@ export class TerminalManager
     //Background
     readConfigData(inputContainer)
     {
-        fetch("scripts/config.json")
+        fetch("scripts/terminal-component/config.json")
             .then(res => res.json())
             .then(res => {
                 this.configData = res;
                 this.adjustTerminalVersion();
-                this.displayMessage(inputContainer, this.configData["welcomeMessage"], "lightgreen");
+                this.displayMessage(inputContainer, this.configData["welcomeMessage"]);
             });
     }
 

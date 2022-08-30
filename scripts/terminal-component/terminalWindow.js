@@ -39,7 +39,7 @@ class TerminalWindow
         this.terminalInput.classList.add("terminalInput");
         this.terminalInput.maxLength = 100;
         this.terminalInput.type = "text";
-        this.terminalInput.autofocus = true;
+        this.terminalInput.placeholder = "Type your command here...";
 
         this.inputContainer.append(this.terminalInput);
 
@@ -78,7 +78,7 @@ class TerminalWindow
         }
         else
         {
-            this.manager.displayMessage(this.inputContainer, this.commandResult);
+            this.manager.displayMessage(this.inputContainer, this.commandResult, "#4CED5C");
         }
 
         this.terminalWindow.scrollTop = this.terminalWindow.scrollHeight;
@@ -87,7 +87,7 @@ class TerminalWindow
     displayNewLineMark()
     {
         this.terminalInput.insertAdjacentHTML("beforebegin",
-            "<span style='color: lawngreen; font-weight: bold;'>&gt; </span>");
+            "<span style='color: #4CED5C; font-weight: bold;'>&gt; </span>");
     }
 }
 

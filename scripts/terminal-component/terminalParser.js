@@ -18,7 +18,7 @@ export class TerminalParser
 
     initCommandsFile()
     {
-        fetch("scripts/commands.json")
+        fetch("scripts/terminal-component/commands.json")
             .then(res => res.json())
             .then(res => {
                 this.commandResponses = res;

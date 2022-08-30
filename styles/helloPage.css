@@ -2,6 +2,15 @@
 
 main
 {
+    /*background-color: lightgreen;*/
+
+    height: 200vh;
+}
+
+.landingPage
+{
+    /*background-color: red;*/
+
     display: flex;
     flex-direction: column;
 
@@ -32,6 +41,8 @@ nav
 
 .main-menu
 {
+    /*background-color: blue;*/
+
     list-style-type: none;
 
     display: flex;
@@ -43,16 +54,49 @@ nav
 
     height: 100%;
 
+    font-size: 24px;
     font-weight: 600;
 }
 
 .main-menu > li
 {
-    padding: 10px;
+    padding: 8px;
+}
+
+.main-menu > li > a
+{
+    position: relative;
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.main-menu > li > a:after
+{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+
+    transition: width 200ms ease-in-out;
+}
+
+.main-menu > li > a:hover
+{
+    transition: color 250ms ease-in-out;
+    color: white;
+}
+
+.main-menu > li > a:hover:after
+{
+    width: 100%;
 }
 
 .page-logo
 {
+    /*background-color: purple;*/
     margin-left: 10px;
 }
 
@@ -91,22 +135,33 @@ section
 
 .hello-message
 {
+    margin-top: 122px;
     font-size: 65px;
 }
 
 .terminal-btn
 {
-    width: 250px;
-    height: 75px;
+    width: 260px;
+    height: 70px;
 
-    background-color: white;
+    background-color: black;
     border: 3px solid white;
     border-radius: 40px;
 
-    color: black;
+    color: white;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 600;
+
+    transition: box-shadow 250ms ease-in-out, color 250ms ease-in-out,
+    background-color 270ms ease-in-out;
+}
+
+.terminal-btn:hover
+{
+    box-shadow: 0 0 40px 40px white inset;
+    color: black;
+    background-color: white;
 }
 /*End of Section Styles*/
 
@@ -115,7 +170,7 @@ section
 .details
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     min-height: 50px;
     height: 6%;
@@ -131,27 +186,74 @@ section
 
 .twitter-btn
 {
-    margin-left: 15px;
+    margin-right: 10px;
 }
 
 .twitter-btn > a > img
 {
     width: 40px;
+    opacity: 70%;
+    transition: opacity 150ms ease-in-out;
+}
+
+.twitter-btn > a > img:hover
+{
+    opacity: 100%;
 }
 
 .github-btn > a > img
 {
     width: 95px;
+    opacity: 70%;
+    transition: opacity 150ms ease-in-out;
+}
+
+.github-btn > a > img:hover
+{
+    opacity: 100%;
 }
 
 .linkedin-btn
 {
-    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .linkedin-btn > a > img
 {
     width: 38px;
+    opacity: 70%;
+    transition: opacity 150ms ease-in-out;
+}
+
+.linkedin-btn > a > img:hover
+{
+    opacity: 100%;
 }
 
 /*End of Details Styles*/
+
+/*Terminal View Styles*/
+
+.terminalView
+{
+    /*background-color: coral;*/
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.terminalView > h2
+{
+    margin-bottom: 5px;
+}
+
+.terminalWindow
+{
+    background-color: black;
+
+
+}
