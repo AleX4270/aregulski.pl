@@ -3,7 +3,6 @@
 main
 {
     /*background-color: lightgreen;*/
-
     height: 200vh;
 }
 
@@ -23,9 +22,9 @@ main
 /*Header Styles*/
 header
 {
-    /*background-color: red;*/
+    background-color: red;
 
-    width: 100vw;
+    width: 100%;
     min-height: 50px;
     height: 11%;
 
@@ -36,7 +35,9 @@ header
 
 nav
 {
+
     /*align-self: flex-end;*/
+    background-color: coral;
 }
 
 .main-menu
