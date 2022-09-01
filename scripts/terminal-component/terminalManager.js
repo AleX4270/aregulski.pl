@@ -58,9 +58,6 @@ export class TerminalManager
 
     adjustTerminalVersion()
     {
-        //Page Title
-        document.title = "WebTerminal - Template " + this.configData["version"];
-
         //Welcome Message
         this.configData["welcomeMessage"] = this.configData["welcomeMessage"].replace("[version]",
             "[" + this.configData["version"] + "]");
