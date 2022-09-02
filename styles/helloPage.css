@@ -1,5 +1,13 @@
 /*This file contains styles used to style the main landing page which is the same in every view*/
 
+:root
+{
+    --palette-black: #100F0F;
+    --palette-green: #0F3D3E;
+    --palette-beige: #E2DCC8;
+    --palette-white: #F1F1F1;
+}
+
 main
 {
     /*background-color: lightgreen;*/
@@ -22,10 +30,10 @@ main
 /*Header Styles*/
 header
 {
-    background-color: red;
+    background-color: var(--palette-black);
 
     width: 100%;
-    min-height: 50px;
+    min-height: 90px;
     height: 11%;
 
     display: flex;
@@ -37,7 +45,7 @@ nav
 {
 
     /*align-self: flex-end;*/
-    background-color: coral;
+    /*background-color: coral;*/
 }
 
 .main-menu
@@ -87,7 +95,7 @@ nav
 .main-menu > li > a:hover
 {
     transition: color 250ms ease-in-out;
-    color: white;
+    color: var(--palette-white);
 }
 
 .main-menu > li > a:hover:after
@@ -117,7 +125,7 @@ nav
 
 section
 {
-    /*background-color: green;*/
+    background-color: var(--palette-black);
 
     min-height: 480px;
     height: 88%;
@@ -142,22 +150,32 @@ section
 
 .hello-message
 {
-    margin-top: 122px;
-    font-size: 65px;
+    margin-top: 65px;
+    font-size: 90px;
+    color: var(--palette-white);
+}
+
+.hello-description
+{
+    margin-top: -60px;
+    margin-bottom: 70px;
+
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .terminal-btn
 {
-    width: 260px;
-    height: 70px;
+    width: 280px;
+    height: 80px;
 
-    background-color: black;
+    background-color: var(--palette-black);
     border: 3px solid white;
-    border-radius: 40px;
+    border-radius: 20px;
 
-    color: white;
+    color: var(--palette-white);
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
 
     transition: box-shadow 250ms ease-in-out, color 250ms ease-in-out,
@@ -179,15 +197,14 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50px;
+    min-height: 60px;
     height: 6%;
 
-    /*background-color: aquamarine;*/
+    background-color: var(--palette-black);
 }
 
 .details > div
 {
-    /*background-color: red;*/
     height: 70%;
 }
 
@@ -243,7 +260,7 @@ section
 
 .terminalView
 {
-    /*background-color: coral;*/
+    background-color: var(--palette-black);
     height: 50%;
 
     display: flex;

@@ -1,0 +1,29 @@
+main
+{
+    height: 400vh !important;
+}
+
+.about-me-section
+{
+    height: 25%;
+    display: flex;
+
+    background-color: var(--palette-white);
+    color: var(--palette-black);
+}
+
+.my-education-section
+{
+    height: 25%;
+    display: flex;
+
+    background-color: var(--palette-black);
+    color: var(--palette-white);
+}
+
+.my-projects-section
+{
+    height: 25%;
+    display: flex;
+    background-color: var(--palette-white);
+}
