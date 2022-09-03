@@ -31,10 +31,14 @@ main
 header
 {
     background-color: var(--palette-black);
+    /*background-color: red;*/
+    z-index: 1;
 
     width: 100%;
     min-height: 90px;
     height: 11%;
+
+    position: fixed;
 
     display: flex;
     justify-content: space-between;
@@ -126,9 +130,10 @@ nav
 section
 {
     background-color: var(--palette-black);
+    /*background-color: blue;*/
 
     min-height: 480px;
-    height: 88%;
+    height: 94%;
 
     display: flex;
     flex-direction: column;
@@ -194,6 +199,8 @@ section
 
 .details
 {
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,12 +208,32 @@ section
     height: 6%;
 
     background-color: var(--palette-black);
+    /*background-color: red;*/
 }
+
 
 .details > div
 {
     height: 70%;
 }
+
+.copyright-message
+{
+    position: absolute;
+    left: 6px;
+    top: 32%;
+
+    color: #bfbfbf;
+
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.copyright-message > p
+{
+    margin: 0;
+}
+
 
 .twitter-btn
 {
