@@ -3,27 +3,136 @@ main
     height: 400vh !important;
 }
 
+header
+{
+    position: static;
+}
+
 .about-me-section
 {
     height: 25%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
     background-color: var(--palette-white);
     color: var(--palette-black);
 }
+
+.about-me-title
+{
+    margin-top: 80px;
+}
+
+.about-me-content
+{
+    margin: 50px 60px 0 60px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.my-projects-section
+{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--palette-black);
+    color: var(--palette-white);
+}
+
+.my-projects-content, tr, td
+{
+    border: 2px solid white;
+    border-collapse: collapse;
+
+
+}
+
+.my-projects-content
+{
+    width: 85%;
+    height: 50%;
+
+
+    table-layout: fixed;
+    text-align: center;
+
+}
+
+/*My Projects Styles*/
+
+.project-real .title
+{
+    font-size: 60px;
+    position: relative;
+
+    top: -30px;
+}
+
+.project-real .description
+{
+    font-weight: 500;
+    font-size: 25px;
+
+    margin: 0 35px 0 35px;
+
+    position: relative;
+    top: -60px;
+}
+
+.project-real .technologies
+{
+    font-weight: 600;
+
+    position: relative;
+    top: -45px;
+}
+
+.project-real .technologies-icons
+{
+    /*background-color: red;*/
+
+    position: relative;
+    top: -85px;
+}
+
+.project-real .technologies-icons > img
+{
+    width: 50px;
+}
+
+.project-real .link-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*background-color: red;*/
+
+    position: relative;
+    top: -35px;
+}
+
+.project-real .github-link
+{
+    margin-left: 50px;
+    width: 120px;
+}
+
+.project-real .website-link
+{
+    width: 60px;
+}
+
+/*End of My Projects Styles*/
 
 .my-education-section
 {
     height: 25%;
     display: flex;
 
-    background-color: var(--palette-black);
-    color: var(--palette-white);
-}
-
-.my-projects-section
-{
-    height: 25%;
-    display: flex;
     background-color: var(--palette-white);
+    color: var(--palette-black);
 }

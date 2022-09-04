@@ -1,5 +1,5 @@
 {
-  "help": "--------------------------------- <br> This is just a template console, but there are still some commands that you can use <br> <br> [help] - displays this message <br> [ping] - that's a secret <br> [clear] - clears the terminal window <br> [date] - displays current date <br> ---------------------------------",
+  "help": "--------------------------------- <br> Basic commands <br> <br> [help] - displays this message <br> [ping] - pong! <br> [clear] - clears the terminal window <br> [date] - displays current date <br> <br> These commands will allow you to learn various things about me: <br> <br> [about-me] - displays a short description of me <br> [projects] - displays a list of projects created by me <br> [education] - displays the history of my education<br> ---------------------------------",
   "ping": "Pong!",
   "clear": "exe_clear",
   "date": "exe_date",
