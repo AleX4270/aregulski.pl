@@ -1,12 +1,6 @@
-main
-{
-    height: 400vh !important;
-}
+/*This file contains styles used to style all of the page content related with my personal info*/
 
-header
-{
-    position: static;
-}
+/*About Me Styles*/
 
 .about-me-section
 {
@@ -31,6 +25,7 @@ header
     font-size: 25px;
 }
 
+/*My Projects Styles*/
 .my-projects-section
 {
     height: 30%;
@@ -61,8 +56,7 @@ header
 
 }
 
-/*My Projects Styles*/
-
+/*Actual PROJECTS Styles*/
 .project-real .title
 {
     font-size: 60px;
@@ -126,8 +120,7 @@ header
     width: 60px;
 }
 
-/*End of My Projects Styles*/
-
+/*My Education Styles*/
 .my-education-section
 {
     height: 25%;

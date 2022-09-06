@@ -3,7 +3,8 @@ const CmdType = {
     ping: "ping",
     test: "test",
     clear: "clear",
-    date: "date"
+    date: "date",
+    exit: "exit"
 }
 
 export class TerminalParser
@@ -43,6 +44,10 @@ export class TerminalParser
 
             case CmdType.date:
                 this.executionResult = this.commandResponses["date"];
+                break;
+
+            case CmdType.exit:
+                this.executionResult = this.commandResponses["exit"];
                 break;
 
             default:

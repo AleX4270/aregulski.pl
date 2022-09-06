@@ -36,6 +36,11 @@ export class TerminalManager
         this.displayMessage(inputContainer, date + " " + time);
     }
 
+    CMD_exitTerminalPage()
+    {
+        location.href = "index.html";
+    }
+
     //UI
     displayMessage(inputContainer, message, color = "aquamarine")
     {

@@ -1,7 +1,8 @@
 {
-  "help": "--------------------------------- <br> Basic commands <br> <br> [help] - displays this message <br> [ping] - pong! <br> [clear] - clears the terminal window <br> [date] - displays current date <br> <br> These commands will allow you to learn various things about me: <br> <br> [about-me] - displays a short description of me <br> [projects] - displays a list of projects created by me <br> [education] - displays the history of my education<br> ---------------------------------",
+  "help": "--------------------------------- <br> Basic commands <br> <br> [ping] - pong! <br> [clear] - clears the terminal window <br> [date] - displays current date <br> [exit] - turns off the terminal view <br> <br> These commands will allow you to learn various things about me: <br> <br> [about-me] - displays a short description of me <br> [projects] - displays a list of projects created by me <br> [education] - displays the history of my education<br> ---------------------------------",
   "ping": "Pong!",
   "clear": "exe_clear",
   "date": "exe_date",
+  "exit": "exe_exit",
   "unknown": "This command is not supported!"
 }

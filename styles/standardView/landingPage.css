@@ -11,7 +11,7 @@
 main
 {
     /*background-color: lightgreen;*/
-    height: 200vh;
+    height: 400vh !important;
 }
 
 .landingPage
@@ -32,13 +32,13 @@ header
 {
     background-color: var(--palette-black);
     /*background-color: red;*/
-    z-index: 1;
+    /*z-index: 1;*/
 
     width: 100%;
     min-height: 90px;
     height: 11%;
 
-    position: fixed;
+    /*position: fixed;*/
 
     display: flex;
     justify-content: space-between;
@@ -107,6 +107,11 @@ nav
     width: 100%;
 }
 
+.main-menu .view-switch > a
+{
+    color: #81e979 !important;
+}
+
 .page-logo
 {
     /*background-color: purple;*/
@@ -118,12 +123,6 @@ nav
     margin-top: 7px;
     width: 75px;
 }
-
-/*.page-logo > h4*/
-/*{*/
-/*    margin: 10px 0 10px 0;*/
-/*}*/
-/*End of Header Styles*/
 
 /*Section Styles*/
 
@@ -193,7 +192,6 @@ section
     color: black;
     background-color: white;
 }
-/*End of Section Styles*/
 
 /*Details Styles*/
 
@@ -279,30 +277,4 @@ section
 .linkedin-btn > a > img:hover
 {
     opacity: 100%;
-}
-
-/*End of Details Styles*/
-
-/*Terminal View Styles*/
-
-.terminalView
-{
-    background-color: var(--palette-black);
-    height: 50%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.terminalView > h2
-{
-    margin-bottom: 5px;
-}
-
-.terminalWindow
-{
-    background-color: black;
 }

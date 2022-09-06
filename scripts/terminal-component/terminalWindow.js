@@ -39,6 +39,7 @@ class TerminalWindow
         this.terminalInput.classList.add("terminalInput");
         this.terminalInput.maxLength = 100;
         this.terminalInput.type = "text";
+        this.terminalInput.autofocus = true;
         this.terminalInput.placeholder = "Type your command here...";
 
         this.inputContainer.append(this.terminalInput);
@@ -73,6 +74,10 @@ class TerminalWindow
 
                 case "exe_date":
                     this.manager.CMD_displayCurrentDate(this.inputContainer);
+                    break;
+
+                case "exe_exit":
+                    this.manager.CMD_exitTerminalPage();
                     break;
             }
         }
