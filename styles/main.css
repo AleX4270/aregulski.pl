@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
+:root
+{
+    --palette-black: #212121;
+    --palette-second-black: #292929;
+    --palette-turqoise: #14FFEC;
+    --palette-yellow: #FFF07C;
+    --palette-white: #F1EDEE;
+}
+
 body
 {
     margin: 0;

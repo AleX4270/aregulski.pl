@@ -1,17 +1,8 @@
 /*This file contains styles used to style the main landing page which is the same in every view*/
-
-:root
-{
-    --palette-black: #100F0F;
-    --palette-green: #0F3D3E;
-    --palette-beige: #E2DCC8;
-    --palette-white: #F1F1F1;
-}
-
 main
 {
     /*background-color: lightgreen;*/
-    height: 400vh !important;
+
 }
 
 .landingPage
@@ -109,7 +100,7 @@ nav
 
 .main-menu .view-switch > a
 {
-    color: #81e979 !important;
+    color: #fff07c !important;
 }
 
 .page-logo
@@ -156,7 +147,7 @@ section
 {
     margin-top: 65px;
     font-size: 90px;
-    color: var(--palette-white);
+    color: #14ffec;
 }
 
 .hello-description
@@ -174,7 +165,7 @@ section
     height: 80px;
 
     background-color: var(--palette-black);
-    border: 3px solid white;
+    border: 3px solid var(--palette-white);
     border-radius: 20px;
 
     color: var(--palette-white);
@@ -188,17 +179,15 @@ section
 
 .terminal-btn:hover
 {
-    box-shadow: 0 0 40px 40px white inset;
+    box-shadow: 0 0 40px 40px var(--palette-white) inset;
     color: black;
-    background-color: white;
+    background-color: var(--palette-white);
 }
 
 /*Details Styles*/
 
 .details
 {
-    position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
