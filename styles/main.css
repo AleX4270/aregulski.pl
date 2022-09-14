@@ -2,11 +2,12 @@
 
 :root
 {
-    --palette-black: #161925;
-    --palette-second-black: #fbfff1;
-    --palette-turqoise: #14FFEC;
-    --palette-yellow: #FFF07C;
-    --palette-white: #fd7921;
+    --palette-background-black: #161925;
+    --palette-background-white: #fbfff1;
+    --palette-turqoise: #43f1e8;
+    --palette-orange: #fd7921;
+    --palette-text-black: #130303;
+
 }
 
 body
@@ -25,4 +26,9 @@ main
     /*background-color: lightgreen;*/
 
 
+}
+
+.orange-gradient
+{
+    color: #fd7921 !important;
 }
