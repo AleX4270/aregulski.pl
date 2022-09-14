@@ -2,11 +2,11 @@
 
 :root
 {
-    --palette-black: #212121;
-    --palette-second-black: #292929;
+    --palette-black: #161925;
+    --palette-second-black: #fbfff1;
     --palette-turqoise: #14FFEC;
     --palette-yellow: #FFF07C;
-    --palette-white: #F1EDEE;
+    --palette-white: #fd7921;
 }
 
 body
@@ -18,4 +18,11 @@ body
     color: white;
 
     font-size: 30px;
+}
+
+main
+{
+    /*background-color: lightgreen;*/
+
+
 }

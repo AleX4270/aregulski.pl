@@ -24,13 +24,17 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: #292929;
+    /*background-color: var(--palette-second-black);*/
+
+    background-image: url(../../assets/backgrounds/overlay.svg);
+    background-size: cover;
+
     color: var(--palette-white);
 }
 
 .about-me-title
 {
-    color: #14ffec;
+    color: var(--palette-black);
 
     display: flex;
     width: 100%;
@@ -55,7 +59,12 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: var(--palette-black);
+    /*background-color: var(--palette-black);*/
+
+    background-image: url(../../assets/backgrounds/simpleshiny.svg);
+    background-size: cover;
+    background-attachment: fixed;
+
     color: var(--palette-white);
 
     /*background-color: orange;*/
