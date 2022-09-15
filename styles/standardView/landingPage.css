@@ -97,11 +97,14 @@ nav
     width: 100%;
 }
 
-.main-menu .view-switch > a
+.main-menu .view-switch > p
 {
     font-size: 24px;
-    color: #43f1e8 !important;
+    /*color: #43f1e8 !important;*/
+    color: darkgrey;
+    opacity: 70%;
 }
+
 
 .page-logo
 {
@@ -115,8 +118,8 @@ nav
     font-weight: 700;
     font-size: 33px;
 
-    opacity: 90%;
-    color: #f5af19;
+    opacity: 95%;
+    color: var(--palette-background-white);
 }
 
 /*.page-logo > a > img*/
@@ -217,24 +220,6 @@ section
 {
     height: 70%;
 }
-
-.copyright-message
-{
-    position: absolute;
-    left: 6px;
-    top: 32%;
-
-    color: #bfbfbf;
-
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.copyright-message > p
-{
-    margin: 0;
-}
-
 
 .twitter-btn
 {
