@@ -2,7 +2,7 @@
 .landingPage
 {
     /*background-color: red;*/
-    background-image: url(../../assets/backgrounds/simpleshiny2.svg);
+    background-image: url(../../../assets/backgrounds/simpleshiny2.svg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -10,6 +10,7 @@
     flex-direction: column;
 
     width: 100%;
+    min-height: 700px;
     height: 100vh;
 
     font-weight: 400;
@@ -70,14 +71,14 @@ nav
 {
     position: relative;
     text-decoration: none;
-    color: var(--palette-orange);
+    color: var(--palette-background-white);
 }
 
 .main-menu > li > a:after
 {
     content: "";
     position: absolute;
-    background-color: white;
+    background-color: var(--palette-orange);
     height: 2px;
     width: 0;
     left: 0;
@@ -176,7 +177,7 @@ section
     color: #fbfff1;
 }
 
-.terminal-btn
+.welcome-btn
 {
     width: 280px;
     height: 80px;
@@ -194,10 +195,10 @@ section
     background-color 270ms ease-in-out;
 }
 
-.terminal-btn:hover
+.welcome-btn:hover
 {
     box-shadow: 0 0 40px 40px var(--palette-orange) inset;
-    color: black;
+    color: var(--palette-background-white);
     background-color: var(--palette-orange);
 }
 

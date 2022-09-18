@@ -3,7 +3,7 @@
 /*About Me Styles*/
 .about-me-section
 {
-    min-height: 1200px;
+    min-height: 1000px;
 
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
 
     /*background-color: var(--palette-background-white);*/
 
-    background-image: url(../../assets/backgrounds/overlay.svg);
+    background-image: url(../../../assets/backgrounds/overlay.svg);
     background-size: cover;
 
     color: var(--palette-text-black);
@@ -19,6 +19,8 @@
 
 .about-me-title
 {
+    margin-top: 35px;
+
     color: var(--palette-orange);
 
     display: flex;
@@ -28,6 +30,8 @@
     text-align: center;
 
     font-size: 70px;
+
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.2);
 }
 
 .about-me-content
@@ -40,7 +44,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
 
-    margin-top: 30px;
+
 }
 
 .about-me-content > div
@@ -84,7 +88,7 @@
 
 .how-it-started
 {
-    flex-basis: 600px;
+    flex-basis: 650px;
     min-height: 300px;
 
     margin-left: 30px;
@@ -92,7 +96,7 @@
 
 .how-its-now
 {
-    flex-basis: 600px;
+    flex-basis: 650px;
     min-height: 300px;
 
     margin-right: 30px;
@@ -102,14 +106,14 @@
 {
     flex-basis: 100%;
 
-    height: 145px;
+    height: 100px;
 
     opacity: 0;
 }
 
 .my-future
 {
-    flex-basis: 30%;
+    flex-basis: 650px;
     min-height: 300px;
 }
 
@@ -117,7 +121,7 @@
 /*My Projects Styles*/
 .my-projects-section
 {
-    min-height: 820px;
+    min-height: 840px;
 
     display: flex;
     flex-direction: column;
@@ -125,7 +129,7 @@
 
     /*background-color: var(--palette-background-black);*/
 
-    background-image: url(../../assets/backgrounds/simpleshiny.svg);
+    background-image: url(../../../assets/backgrounds/simpleshiny.svg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -136,9 +140,13 @@
 
 .my-projects-title
 {
-    margin-top: 45px;
+    margin-top: 35px;
 
     color: var(--palette-orange);
+
+    font-size: 70px;
+
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.2);
 }
 
 .projects-browser
@@ -159,6 +167,7 @@
     /*background-color: blue;*/
 
     width: 25%;
+    min-width: 390px;
     height: 550px;
 
     display: flex;
@@ -234,7 +243,7 @@
     /*background-color: red;*/
 
     position: relative;
-    top: -35px;
+    top: -25px;
 }
 
 .project-real .github-link
@@ -251,7 +260,7 @@
 
 .experience-section
 {
-    min-height: 680px;
+    min-height: 700px;
 
     display: flex;
     flex-direction: column;
@@ -259,7 +268,7 @@
 
     /*background-color: var(--palette-background-white);*/
 
-    background-image: url(../../assets/backgrounds/overlay.svg);
+    background-image: url(../../../assets/backgrounds/overlay.svg);
     background-size: cover;
 
     color: var(--palette-text-black);
@@ -267,6 +276,8 @@
 
 .experience-title
 {
+    margin-top: 35px;
+
     color: var(--palette-orange);
 
     display: flex;
@@ -274,6 +285,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    font-size: 70px;
+
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.2);
 }
 
 .experience-content
@@ -316,16 +331,12 @@
 .breaker-line
 {
     border: 2px solid black;
-}
-
-.junior-programmer
-{
-
+    margin-top: 25px;
 }
 
 footer
 {
-    min-height: 100px;
+    min-height: 85px;
 
     display: flex;
     align-items: center;
@@ -333,7 +344,7 @@ footer
 
     /*background-color: var(--palette-background-black);*/
 
-    background-image: url(../../assets/backgrounds/simpleshiny.svg);
+    background-image: url(../../../assets/backgrounds/simpleshiny.svg);
     background-size: cover;
     background-attachment: fixed;
 

@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1400px)
+{
+    .about-me-content
+    {
+        /*background-color: red;*/
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-content: center;
+    }
+
+    .about-me-content > div
+    {
+        width: 700px;
+
+        height: 200px;
+    }
+
+    .how-it-started, .how-its-now, .my-future
+    {
+        flex-basis: auto;
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .break
+    {
+        display: none;
+    }
+
+    /*My Projects Styles*/
+
+    .projects-browser > div
+    {
+        /*background-color: blue;*/
+
+        width: 25%;
+        min-width: 350px;
+        height: 550px;
+    }
+
+    .project-real .title
+    {
+        color: var(--palette-orange);
+
+        font-size: 50px;
+        position: relative;
+
+        top: -30px;
+    }
+}

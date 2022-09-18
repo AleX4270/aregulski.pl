@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1200px)
+{
+    .hello-message
+    {
+        margin-top: 65px;
+        font-size: 80px;
+    }
+
+    .hello-description
+    {
+        margin-top: -50px;
+    }
+}

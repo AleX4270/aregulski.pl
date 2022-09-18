@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import "standardView/reference_res/landingPage.css";
+@import "standardView/reference_res/personalContent.css";
+
+/*Responsive Design*/
+@import "standardView/extraLarge_res/extraLarge.css";
+@import "standardView/large_res/large.css";
+
 
 :root
 {
@@ -42,8 +49,8 @@ main
 {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 15px;
+    right: 35px;
     z-index: 99;
 
     border: none;
@@ -55,8 +62,8 @@ main
 
     padding: 15px;
 
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
 
     font-size: 18px;
 }
@@ -72,10 +79,11 @@ main
     display: inline-block;
     padding: 3px;
 
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
 
-    margin-top: -8px;
+    position: relative;
+    bottom: 9px;
 }
 
 .up {
