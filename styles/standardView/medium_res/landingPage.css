@@ -1,0 +1,65 @@
+@media only screen and (max-width: 992px)
+{
+    .page-logo > h4
+    {
+        font-size: 30px;
+    }
+
+    .section-content-container
+    {
+        width: 90%;
+    }
+
+    #dropdown-menu
+    {
+        position: fixed;
+        top: 20px;
+        left: 915px;
+        width: 50px;
+        height: 50px;
+        display: inline;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        background: linear-gradient(
+                to bottom,
+                var(--palette-background-white), var(--palette-background-white) 20%,
+                var(--palette-background-black) 20%, var(--palette-background-black) 40%,
+                var(--palette-background-white) 40%, var(--palette-background-white) 60%,
+                var(--palette-background-black) 60%, var(--palette-background-black) 80%,
+                var(--palette-background-white) 80%, var(--palette-background-white) 100%
+        );
+    }
+
+    .main-menu
+    {
+        visibility: visible;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 200px;
+        height: 100vh;
+        /*background-color: var(--palette-background-black);*/
+        background-color: red;
+        transition: 0.3s;
+        padding: 0px 10px;
+        box-sizing: border-box;
+
+        flex-direction: column;
+    }
+
+    #dropdown-input
+    {
+        display: none;
+    }
+
+    #dropdown-input:checked + #dropdown-menu > nav > .main-menu
+    {
+        visibility: visible;
+
+        position: relative;
+        right: -400px;
+    }
+
+
+}
